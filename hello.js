@@ -1,5 +1,6 @@
 function hello (){
 	msgdiv = document.getElementById('msg');
+	msgdiv.innerHTML = "";
 	var name = prompt ("Indiquez le nom de la personne a saluer");
 	if (name != null){
 		var nb = prompt("Indiquez le nombre de 'Hello' a afficher");
